@@ -4,6 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import { Environment, Float, Stars } from "@react-three/drei";
 import { EffectComposer, Bloom, Noise, Vignette } from "@react-three/postprocessing";
 import { VrioLogo } from "./VrioLogo";
+import { CameraController } from "./CameraController";
 
 export function HeroScene() {
     return (
@@ -14,6 +15,7 @@ export function HeroScene() {
                 gl={{ preserveDrawingBuffer: true, antialias: false }} // Optimizations for post-processing
                 dpr={[1, 1.5]}
             >
+                <CameraController />
                 <fog attach="fog" args={["#050914", 5, 25]} />
 
                 {/* Cinematic Lighting */}
@@ -35,7 +37,7 @@ export function HeroScene() {
                 />
 
                 {/* The Kinetic Prism - Centerpiece */}
-                <group position={[0, 0, 0]}>
+                <group position={[0, 1, 0]}>
                     <VrioLogo />
                 </group>
 
