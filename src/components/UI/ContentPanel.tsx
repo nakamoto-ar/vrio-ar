@@ -13,20 +13,16 @@ function DecodingText({ text, active, delay = 0 }: { text: string; active: boole
 
     useEffect(() => {
         if (active) {
-            let i = 0;
             setDisplayText("");
             const timeout = setTimeout(() => {
+                let i = 0;
                 const interval = setInterval(() => {
-                    setDisplayText((prev) => {
-                        const nextChar = text[i];
-                        if (!nextChar) {
-                            clearInterval(interval);
-                            return prev;
-                        }
-                        return prev + nextChar;
-                    });
-                    i++;
-                    if (i >= text.length) clearInterval(interval);
+                    if (i < text.length) {
+                        setDisplayText(text.substring(0, i + 1));
+                        i++;
+                    } else {
+                        clearInterval(interval);
+                    }
                 }, 20); // Typing speed
                 return () => clearInterval(interval);
             }, delay * 1000);
