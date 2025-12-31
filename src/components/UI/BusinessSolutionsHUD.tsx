@@ -64,12 +64,8 @@ export function BusinessSolutionsHUD() {
                     ))}
                 </ul>
 
-                <div className="mt-12 text-[10px] text-white/30 leading-relaxed font-light tracking-wider">
-                    :: DIAGNÓSTICO DEL SISTEMA... OK
-                    <br />
-                    :: OPTIMIZACIÓN NEURONAL... ACTIVADA
-                    <br />
-                    :: ENLACE SEGURO... ESTABLECIDO
+                <div className="mt-12 text-[10px] text-white/40 leading-relaxed font-light tracking-[0.25em] italic">
+                    :: TECNOLOGÍA INVISIBLE
                 </div>
             </div>
         </div>
