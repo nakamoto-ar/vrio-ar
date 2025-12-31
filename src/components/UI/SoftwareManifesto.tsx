@@ -20,7 +20,7 @@ export function SoftwareManifesto() {
                 {/* System Alert Typography */}
                 <div className="border-l-4 border-industrial-gold pl-6 py-2">
                     <p className="text-2xl md:text-3xl font-mono font-bold text-white leading-tight uppercase tracking-tight drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">
-                        EL SOFTWARE ES NUESTRA MATERIA PRIMA. FORJAMOS SOLUCIONES INESPERADAS PARA LA EVOLUCIÓN EMPRESARIAL.
+                        EL SOFTWARE ES NUESTRA MATERIA PRIMA. FORJAMOS EXPERIENCIAS INESPERADAS QUE TRANSFORMAN LA COMUNICACIÓN HUMANA.
                     </p>
                 </div>
 

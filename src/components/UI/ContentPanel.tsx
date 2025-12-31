@@ -42,24 +42,24 @@ function DecodingText({ text, active, delay = 0 }: { text: string; active: boole
 const SECTION_CONTENT: Record<string, { title: string; body: string; tags: string[] } | null> = {
     HOME: null,
     PROCESS: {
-        title: "EVOLUCIÓN DE PROCESOS",
-        body: "Transformamos flujos de trabajo estáticos en ecosistemas digitales vivos. Nuestra ingeniería no solo optimiza; reimagina la operatividad mediante la automatización inteligente y la visualización de datos en tiempo real.",
-        tags: ["AUTOMATIZACIÓN", "DASHBOARDS VIVOS", "OPTIMIZACIÓN"]
+        title: "DISRUPCIÓN INVISIBLE",
+        body: "No optimizamos. Reimaginamos. Creamos nuevas formas de interactuar, comerciar y comunicar donde la tecnología desaparece y solo queda la experiencia. Como un truco de magia perfectamente ejecutado.",
+        tags: ["MAGIA INVISIBLE", "NUEVAS FORMAS", "EXPERIENCIA PURA"]
     },
     CREATIVE: {
         title: "INGENIERÍA CREATIVA",
-        body: "Donde el código se encuentra con el arte. Utilizamos algoritmos generativos y shaders personalizados para crear experiencias visuales que no solo comunican, sino que hipnotizan. El software es nuestra arcilla.",
-        tags: ["WEBGL / R3F", "ARTE GENERATIVO", "EXPERIENCIA INMERSIVA"]
+        body: "Donde el código se encuentra con el arte. Creamos experiencias visuales que no solo comunican, sino que hipnotizan. El software es nuestra arcilla, la imaginación nuestro límite.",
+        tags: ["WEBGL / R3F", "ARTE GENERATIVO", "HIPNOSIS VISUAL"]
     },
     STRATEGY: {
         title: "ESTRATEGIA DISRUPTIVA",
-        body: "Rompemos la inercia del mercado con soluciones tecnológicas inesperadas. Analizamos los puntos ciegos de su industria para inyectar innovación radical que redefine su propuesta de valor.",
-        tags: ["ANÁLISIS DE BRECHAS", "FUTURISMO", "NUEVOS MODELOS"]
+        body: "Identificamos lo que otros no ven. Creamos productos que no existían. Transformamos industrias completas haciendo que lo imposible sea invisible, natural, inevitable.",
+        tags: ["PRODUCTOS NUEVOS", "VISIÓN PROFUNDA", "LO INEVITABLE"]
     },
     SYSTEMS: {
         title: "ARTESANÍA DE SISTEMAS",
-        body: "Construimos catedrales de código robustas y escalables. Sistemas distribuidos, microservicios y bases de datos de alto rendimiento diseñados para resistir la prueba del tiempo y la escala masiva.",
-        tags: ["CLOUD NATIVE", "SEGURIDAD", "ESCALABILIDAD"]
+        body: "Construimos catedrales de código. Sistemas elegantes que funcionan en silencio, potentes en su simplicidad. La tecnología debe ser invisible, pero indestructible.",
+        tags: ["CLOUD NATIVE", "ELEGANCIA", "SILENCIO POTENTE"]
     }
 };
 
